@@ -1,0 +1,26 @@
+{
+  "name": "express-google",
+  "version": "1.0.0",
+  "description": "A search project using Google Places and Google Place Detail APIs.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilamdaniels/node-express-google.git"
+  },
+  "author": "Camila Daniels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camilamdaniels/node-express-google/issues"
+  },
+  "homepage": "https://github.com/camilamdaniels/node-express-google#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "node-fetch": "^2.0.0"
+  }
+}
